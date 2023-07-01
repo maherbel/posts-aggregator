@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory=\
+com.embikey.postsaggregator.config.RedisTestContainersSpringContextCustomizerFactory,\
+com.embikey.postsaggregator.config.KafkaTestContainersSpringContextCustomizerFactory,\
+com.embikey.postsaggregator.config.SqlTestContainersSpringContextCustomizerFactory
